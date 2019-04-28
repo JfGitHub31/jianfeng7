@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)http://user-awfy.sh.intel.com:8080/awfy/ARCworkloads/Speedometer2-226694-jstc/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Speedometer 2.0</title>
+    <link rel="stylesheet" href="./36----02_files/main.css">
+    <script src="./36----02_files/main.js" defer=""></script>
+    <script src="./36----02_files/benchmark-runner.js" defer=""></script>
+    <script src="./36----02_files/benchmark-report.js" defer=""></script>
+    <script src="./36----02_files/statistics.js" defer=""></script>
+    <script src="./36----02_files/tests.js" defer=""></script>
+</head>
+<body>
+<main>
+    <a id="logo-link" href="javascript:showHome()"><img id="logo" src="./36----02_files/logo.png"></a>
+
+    <section id="home" class="">
+        <p>
+            Speedometer is a browser benchmark that measures the responsiveness of Web applications.
+            It uses demo web applications to simulate user actions such as adding to-do items.
+        </p>
+        <p id="screen-size-warning" style="display: none;"><strong>
+            Your browser window is too small. For most accurate results, please make the view port size at least 850px by 650px.<br>
+            It's currently <span id="screen-size">1853px by 932px</span>.
+        </strong></p>
+        <div class="buttons">
+            <button onclick="startTest()">Start Test</button>
+        </div>
+        <p class="show-about"><a href="javascript:showFrameworks()">Frameworks</a></p>
+        <p class="show-about"><a href="javascript:showAbout()">About Speedometer</a></p>
+    </section>
+
+    <section id="running" class="">
+        <div id="testContainer"></div>
+        <div id="progress"><div id="progress-completed" style="width: 100%;"></div></div>
+        <div id="info">Flight-TodoMVC ( 479 / 480 )</div>
+    </section>
+
+    <section id="summarized-results" class="">
+        <h1>Runs / Minute</h1>
+        <div class="gauge"><div class="window"><div class="needle" style="transform: rotate(-29.0341deg);"></div></div></div>
+        <hr>
+        <div id="result-number">40.97</div>
+        <div id="confidence-number"></div>
+        <div class="buttons">
+            <button onclick="startTest()">Test Again</button>
+            <button class="show-details" onclick="showResultDetails()">Details</button>
+        </div>
+    </section>
+
+    <section id="detailed-results" class="selected">
+        <h1>Detailed Results</h1>
+        <table class="results-table"><tr><th>Iteration 1</th><td>40.02 runs/min</td></tr><tr><th>Iteration 2</th><td>41.62 runs/min</td></tr><tr><th>Iteration 3</th><td>40.71 runs/min</td></tr><tr><th>Iteration 4</th><td>41.10 runs/min</td></tr><tr><th>Iteration 5</th><td>40.90 runs/min</td></tr><tr><th>Iteration 6</th><td>40.59 runs/min</td></tr><tr><th>Iteration 7</th><td>40.95 runs/min</td></tr><tr><th>Iteration 8</th><td>41.69 runs/min</td></tr><tr><th>Iteration 9</th><td>41.40 runs/min</td></tr><tr><th>Iteration 10</th><td>40.66 runs/min</td></tr></table>
+        <table class="results-table"><tr><th>Subcase</th><td>Score (runs/min)</td><td>Time (ms)</td></tr><tr><th>VanillaJS-TodoMVC</th><td>197.49</td><td>3042.00</td></tr><tr><th>Vanilla-ES2015-TodoMVC</th><td>148.00</td><td>4068.20</td></tr><tr><th>Vanilla-ES2015-Babel-Webpack-TodoMVC</th><td>157.76</td><td>3813.90</td></tr><tr><th>React-TodoMVC</th><td>119.79</td><td>5018.50</td></tr><tr><th>React-Redux-TodoMVC</th><td>61.06</td><td>9855.50</td></tr><tr><th>EmberJS-TodoMVC</th><td>78.90</td><td>7618.20</td></tr><tr><th>EmberJS-Debug-TodoMVC</th><td>17.68</td><td>33939.90</td></tr><tr><th>BackboneJS-TodoMVC</th><td>250.12</td><td>2399.40</td></tr><tr><th>AngularJS-TodoMVC</th><td>70.16</td><td>8554.60</td></tr><tr><th>Angular2-TypeScript-TodoMVC</th><td>266.65</td><td>2257.20</td></tr><tr><th>VueJS-TodoMVC</th><td>423.55</td><td>1419.00</td></tr><tr><th>jQuery-TodoMVC</th><td>34.23</td><td>17540.50</td></tr><tr><th>Preact-TodoMVC</th><td>619.01</td><td>972.30</td></tr><tr><th>Inferno-TodoMVC</th><td>105.86</td><td>5670.90</td></tr><tr><th>Elm-TodoMVC</th><td>75.49</td><td>7958.80</td></tr><tr><th>Flight-TodoMVC</th><td>173.57</td><td>3458.90</td></tr></table>
+        <div class="arithmetic-mean"><label>Arithmetic Mean:</label><span id="results-with-statistics">81.64</span></div>
+        <div class="arithmetic-mean"><label>Geomean Score:</label><span id="geomean-score">40.97</span></div>
+        <div class="arithmetic-mean"><label>Total Score Time:</label><span id="total-score-time">117587.80</span></div>
+        <div class="arithmetic-mean"><label>Total Running Time:</label><span id="total-running-time">143631.10</span></div>
+        <div class="buttons">
+            <button onclick="startTest()">Test Again</button>
+            <button id="show-summary" onclick="showResultsSummary()">Summary</button>
+        </div>
+        <p class="show-about"><a href="javascript:showAbout()">About Speedometer</a></p>
+    </section>
+
+    <section id="frameworks">
+        <h1>Frameworks</h1>
+        <table class="frameworks-table"><tr><th>VanillaJS-TodoMVC</th><input type="checkbox"></tr><tr><th>Vanilla-ES2015-TodoMVC</th><input type="checkbox"></tr><tr><th>Vanilla-ES2015-Babel-Webpack-TodoMVC</th><input type="checkbox"></tr><tr><th>React-TodoMVC</th><input type="checkbox"></tr><tr><th>React-Redux-TodoMVC</th><input type="checkbox"></tr><tr><th>EmberJS-TodoMVC</th><input type="checkbox"></tr><tr><th>EmberJS-Debug-TodoMVC</th><input type="checkbox"></tr><tr><th>BackboneJS-TodoMVC</th><input type="checkbox"></tr><tr><th>AngularJS-TodoMVC</th><input type="checkbox"></tr><tr><th>Angular2-TypeScript-TodoMVC</th><input type="checkbox"></tr><tr><th>VueJS-TodoMVC</th><input type="checkbox"></tr><tr><th>jQuery-TodoMVC</th><input type="checkbox"></tr><tr><th>Preact-TodoMVC</th><input type="checkbox"></tr><tr><th>Inferno-TodoMVC</th><input type="checkbox"></tr><tr><th>Elm-TodoMVC</th><input type="checkbox"></tr><tr><th>Flight-TodoMVC</th><input type="checkbox"></tr><tr><th>FlightJS-MailClient</th><input type="checkbox"></tr></table>
+        <div class="buttons">
+            <button onclick="defaultFrameworks()">Default</button>
+            <button onclick="clearFrameworks()">Clear</button>
+            <button onclick="startTest()">Start Test</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About Speedometer 2.0</h1>
+
+        <p>Speedometer tests a browser's Web app responsiveness by timing simulated user interactions.</p>
+
+        <p>
+            This benchmark simulates user actions for adding, completing, and removing to-do items using multiple examples in TodoMVC.
+            Each example in TodoMVC implements the same todo application using DOM APIs in different ways.
+            Some call DOM APIs directly from ECMAScript 5 (ES5), ECMASCript 2015 (ES6), ES6 transpiled to ES5, and Elm transpiled to ES5.
+            Others use one of eleven popular JavaScript frameworks: React, React with Redux, Ember.js, Backbone.js,
+            AngularJS, (new) Angular, Vue.js, jQuery, Preact, Inferno, and Flight.
+
+            Many of these frameworks are used on the most popular websites in the world, such as Facebook and Twitter.
+            The performance of these types of operations depends on the speed of the DOM APIs, the JavaScript engine,
+            CSS style resolution, layout, and other technologies.
+        </p>
+
+        <p>
+            Although user-driven actions like mouse movements and keyboard input cannot be accurately emulated in JavaScript,
+            Speedometer does its best to faithfully replay a typical workload within the demo applications.
+            To make the run time long enough to measure with the limited precision,
+            we synchronously execute a large number of the operations, such as adding one hundred to-do items.
+        </p>
+
+        <p>
+            Modern browser engines execute some work asynchronously as an optimization strategy to reduce the run time of synchronous operations.
+            While returning control back to JavaScript execution as soon as possible is worth pursuing,
+            the run time cost of such an asynchronous work should still be taken into a holistic measurement of web application performance.
+            In addition, some modern JavaScript frameworks such as Vue.js and Preact call into DOM APIs asynchronously as an optimization technique.
+            Speedometer approximates the run time of this asynchronous work in the UI thread with a zero-second timer
+            that is scheduled immediately after each execution of synchronous operations.
+        </p>
+
+        <p>
+            Speedometer does not attempt to measure concurrent asynchronous work that does not directly impact the UI thread,
+            which tends not to affect app responsiveness.
+        </p>
+
+        <p class="note">
+            <strong>Note:</strong> Speedometer should not be used as a way to compare the performance of different JavaScript frameworks
+            as work load differs greatly in each framework.
+        </p>
+    </section>
+</main>
+
+
+</body></html>

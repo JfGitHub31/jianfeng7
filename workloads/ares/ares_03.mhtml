@@ -1,0 +1,600 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://user-awfy.sh.intel.com:8080/awfy/ARCworkloads/ARES-6/
+Subject: 
+Date: Wed, 6 Mar 2019 04:22:11 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--w1yfVvFMk8HmORpk00PHygzmkcvOmRZWiYXXQ7DkaW----"
+
+
+------MultipartBoundary--w1yfVvFMk8HmORpk00PHygzmkcvOmRZWiYXXQ7DkaW----
+Content-Type: text/html
+Content-ID: <frame-A42387A36A8C5BE6085A2762BC3A552A@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://user-awfy.sh.intel.com:8080/awfy/ARCworkloads/ARES-6/
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3Dwindows-1252">
+    <link rel=3D"stylesheet" href=3D"http://user-awfy.sh.intel.com:8080/awf=
+y/ARCworkloads/ARES-6/styles.css">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, user-scalable=3Dyes">
+</head>
+<body>
+   =20
+   =20
+   =20
+   =20
+   =20
+    <div class=3D"swoop">&nbsp;</div>
+   =20
+    <header>
+        <h1 class=3D"logo"><img src=3D"http://user-awfy.sh.intel.com:8080/a=
+wfy/ARCworkloads/ARES-6/ARES-6.svg" title=3D"ARES-6" alt=3D"ARES-6"></h1>
+        <button id=3D"trigger" class=3D"start ready">
+            <span id=3D"status">Restart</span>
+        </button>
+        <div id=3D"error" class=3D"error"></div>
+    </header>
+
+    <main>
+   =20
+    <p>ARES-6 measures the execution time of JavaScript's newest features. =
+<a href=3D"http://user-awfy.sh.intel.com:8080/awfy/ARCworkloads/ARES-6/abou=
+t.html">Read more details=85</a></p>
+
+    <div class=3D"overall">
+        <h2>Overall</h2>
+        <div class=3D"score">
+            <span id=3D"Geomean"><span class=3D"value">36.76</span><span cl=
+ass=3D"margin"> =B10.43</span><span class=3D"units">ms</span></span>
+        </div>
+    </div>   =20
+   =20
+    <div class=3D"tests">
+       =20
+        <div class=3D"air test">
+            <div id=3D"AirMessage" class=3D"indicator">.</div>
+            <h2>Air</h2>=20
+
+            <div class=3D"score">
+                <label>First Iteration</label>
+                <span id=3D"AirFirstIteration"><span class=3D"value">78.63<=
+/span><span class=3D"margin"> =B17.38</span><span class=3D"units">ms</span>=
+</span>
+            </div>
+=20
+            <div class=3D"score">
+                <label>Worst 4 Iterations</label>
+                <span id=3D"AirAverageWorstCase"><span class=3D"value">43.1=
+7</span><span class=3D"margin"> =B13.63</span><span class=3D"units">ms</spa=
+n></span>
+            </div>
+
+            <div class=3D"score">
+                <label>Average</label>
+                <span id=3D"AirSteadyState"><span class=3D"value">15.27</sp=
+an><span class=3D"margin"> =B10.56</span><span class=3D"units">ms</span></s=
+pan>
+            </div>
+        </div>
+   =20
+        <div class=3D"basic test">
+            <div id=3D"BasicMessage" class=3D"indicator">.</div>
+            <h2>Basic</h2>=20
+           =20
+            <div class=3D"score">
+                <label>First Iteration</label>
+                <span id=3D"BasicFirstIteration"><span class=3D"value">41.5=
+2</span><span class=3D"margin"> =B12.47</span><span class=3D"units">ms</spa=
+n></span>
+            </div>
+=20
+            <div class=3D"score">
+                <label>Worst 4 Iteratons</label>
+                <span id=3D"BasicAverageWorstCase"><span class=3D"value">17=
+.93</span><span class=3D"margin"> =B10.73</span><span class=3D"units">ms</s=
+pan></span>
+            </div>
+
+            <div class=3D"score">
+                <label>Average</label>
+                <span id=3D"BasicSteadyState"><span class=3D"value">6.31</s=
+pan><span class=3D"margin"> =B10.13</span><span class=3D"units">ms</span></=
+span>
+            </div>
+        </div>
+
+        <div class=3D"babylon test">
+            <div id=3D"BabylonMessage" class=3D"indicator">.</div>
+            <h2>Babylon</h2>=20
+           =20
+            <div class=3D"score">
+                <label>First Iteration</label>
+                <span id=3D"BabylonFirstIteration"><span class=3D"value">78=
+.50</span><span class=3D"margin"> =B16.31</span><span class=3D"units">ms</s=
+pan></span>
+            </div>
+=20
+            <div class=3D"score">
+                <label>Worst 4 Iterations</label>
+                <span id=3D"BabylonAverageWorstCase"><span class=3D"value">=
+37.00</span><span class=3D"margin"> =B13.81</span><span class=3D"units">ms<=
+/span></span>
+            </div>
+
+            <div class=3D"score">
+                <label>Average</label>
+                <span id=3D"BabylonSteadyState"><span class=3D"value">5.76<=
+/span><span class=3D"margin"> =B10.13</span><span class=3D"units">ms</span>=
+</span>
+            </div>
+        </div>
+
+        <div class=3D"ML test">
+            <div id=3D"MLMessage" class=3D"indicator">.</div>
+            <h2>ML</h2>=20
+           =20
+            <div class=3D"score">
+                <label>First Iteration</label>
+                <span id=3D"MLFirstIteration"><span class=3D"value">173.52<=
+/span><span class=3D"margin"> =B111.39</span><span class=3D"units">ms</span=
+></span>
+            </div>
+=20
+            <div class=3D"score">
+                <label>Worst 4 Iterations</label>
+                <span id=3D"MLAverageWorstCase"><span class=3D"value">108.0=
+0</span><span class=3D"margin"> =B15.96</span><span class=3D"units">ms</spa=
+n></span>
+            </div>
+
+            <div class=3D"score">
+                <label>Average</label>
+                <span id=3D"MLSteadyState"><span class=3D"value">81.37</spa=
+n><span class=3D"margin"> =B12.95</span><span class=3D"units">ms</span></sp=
+an>
+            </div>
+        </div>
+
+    </div>
+    </main>
+   =20
+    <iframe id=3D"magic" frameborder=3D"0"></iframe>
+   =20
+   =20
+   =20
+   =20
+   =20
+       =20
+
+
+<div id=3D"SL_balloon_obj" alt=3D"0" style=3D"display: block;"><div id=3D"S=
+L_button" class=3D"SL_ImTranslatorLogo" style=3D"background: url(&quot;chro=
+me-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/imtranslat=
+or-s.png&quot;); display: none;"></div><div id=3D"SL_shadow_translation_res=
+ult2" style=3D"display: none;"></div><div id=3D"SL_shadow_translator" style=
+=3D"left: -10000px; top: -10000px; display: none;"><div id=3D"SL_planshet">=
+<div id=3D"SL_arrow_up" style=3D"background: url(&quot;chrome-extension://n=
+oaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/up.png&quot;);"></div><div=
+ id=3D"SL_Bproviders"></div><div id=3D"SL_alert_bbl"><div id=3D"SLHKclose" =
+style=3D"background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbk=
+okogabh/content/img/util/delete.png&quot;);"></div><div id=3D"SL_alert_cont=
+"></div></div><div id=3D"SL_TB"><table id=3D"SL_tables" cellspacing=3D"1"><=
+tr><td class=3D"SL_td" width=3D"10%" align=3D"right"><input id=3D"SL_locer"=
+ type=3D"checkbox" title=3D"Lock-in language"></td><td class=3D"SL_td" widt=
+h=3D"20%" align=3D"left"><select id=3D"SL_lng_from" style=3D"background: ur=
+l(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/uti=
+l/select.png&quot;) 100% 0px no-repeat rgb(255, 255, 255);"><option value=
+=3D"auto">Detect language</option><option value=3D"af">Afrikaans</option><o=
+ption value=3D"sq">Albanian</option><option value=3D"am">Amharic</option><o=
+ption value=3D"ar">Arabic</option><option value=3D"hy">Armenian</option><op=
+tion value=3D"az">Azerbaijani</option><option value=3D"eu">Basque</option><=
+option value=3D"be">Belarusian</option><option value=3D"bn">Bengali</option=
+><option value=3D"bs">Bosnian</option><option value=3D"bg">Bulgarian</optio=
+n><option value=3D"ca">Catalan</option><option value=3D"ceb">Cebuano</optio=
+n><option value=3D"ny">Chichewa</option><option value=3D"zh-CN">Chinese (Si=
+mplified)</option><option value=3D"zh-TW">Chinese (Traditional)</option><op=
+tion value=3D"co">Corsican</option><option value=3D"hr">Croatian</option><o=
+ption value=3D"cs">Czech</option><option value=3D"da">Danish</option><optio=
+n value=3D"nl">Dutch</option><option value=3D"en">English</option><option v=
+alue=3D"eo">Esperanto</option><option value=3D"et">Estonian</option><option=
+ value=3D"tl">Filipino</option><option value=3D"fi">Finnish</option><option=
+ value=3D"fr">French</option><option value=3D"fy">Frisian</option><option v=
+alue=3D"gl">Galician</option><option value=3D"ka">Georgian</option><option =
+value=3D"de">German</option><option value=3D"el">Greek</option><option valu=
+e=3D"gu">Gujarati</option><option value=3D"ht">Haitian Creole</option><opti=
+on value=3D"ha">Hausa</option><option value=3D"haw">Hawaiian</option><optio=
+n value=3D"iw">Hebrew</option><option value=3D"hi">Hindi</option><option va=
+lue=3D"hmn">Hmong</option><option value=3D"hu">Hungarian</option><option va=
+lue=3D"is">Icelandic</option><option value=3D"ig">Igbo</option><option valu=
+e=3D"id">Indonesian</option><option value=3D"ga">Irish</option><option valu=
+e=3D"it">Italian</option><option value=3D"ja">Japanese</option><option valu=
+e=3D"jw">Javanese</option><option value=3D"kn">Kannada</option><option valu=
+e=3D"kk">Kazakh</option><option value=3D"km">Khmer</option><option value=3D=
+"ko">Korean</option><option value=3D"ku">Kurdish</option><option value=3D"k=
+y">Kyrgyz</option><option value=3D"lo">Lao</option><option value=3D"la">Lat=
+in</option><option value=3D"lv">Latvian</option><option value=3D"lt">Lithua=
+nian</option><option value=3D"lb">Luxembourgish</option><option value=3D"mk=
+">Macedonian</option><option value=3D"mg">Malagasy</option><option value=3D=
+"ms">Malay</option><option value=3D"ml">Malayalam</option><option value=3D"=
+mt">Maltese</option><option value=3D"mi">Maori</option><option value=3D"mr"=
+>Marathi</option><option value=3D"mn">Mongolian</option><option value=3D"my=
+">Myanmar (Burmese)</option><option value=3D"ne">Nepali</option><option val=
+ue=3D"no">Norwegian</option><option value=3D"ps">Pashto</option><option val=
+ue=3D"fa">Persian</option><option value=3D"pl">Polish</option><option value=
+=3D"pt">Portuguese</option><option value=3D"pa">Punjabi</option><option val=
+ue=3D"ro">Romanian</option><option value=3D"ru">Russian</option><option val=
+ue=3D"sm">Samoan</option><option value=3D"gd">Scots Gaelic</option><option =
+value=3D"sr">Serbian</option><option value=3D"st">Sesotho</option><option v=
+alue=3D"sn">Shona</option><option value=3D"sd">Sindhi</option><option value=
+=3D"si">Sinhala</option><option value=3D"sk">Slovak</option><option value=
+=3D"sl">Slovenian</option><option value=3D"so">Somali</option><option value=
+=3D"es">Spanish</option><option value=3D"su">Sundanese</option><option valu=
+e=3D"sw">Swahili</option><option value=3D"sv">Swedish</option><option value=
+=3D"tg">Tajik</option><option value=3D"ta">Tamil</option><option value=3D"t=
+e">Telugu</option><option value=3D"th">Thai</option><option value=3D"tr">Tu=
+rkish</option><option value=3D"uk">Ukrainian</option><option value=3D"ur">U=
+rdu</option><option value=3D"uz">Uzbek</option><option value=3D"vi">Vietnam=
+ese</option><option value=3D"cy">Welsh</option><option value=3D"xh">Xhosa</=
+option><option value=3D"yi">Yiddish</option><option value=3D"yo">Yoruba</op=
+tion><option value=3D"zu">Zulu</option></select></td><td class=3D"SL_td" wi=
+dth=3D"3" align=3D"center"><div id=3D"SL_switch_b" title=3D"Switch language=
+s" style=3D"background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkc=
+fbkokogabh/content/img/util/switchb.png&quot;);"></div></td><td class=3D"SL=
+_td" width=3D"20%" align=3D"left"><select id=3D"SL_lng_to" style=3D"backgro=
+und: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/=
+img/util/select.png&quot;) 100% 0px no-repeat rgb(255, 255, 255);"><option =
+value=3D"af">Afrikaans</option><option value=3D"sq">Albanian</option><optio=
+n value=3D"am">Amharic</option><option value=3D"ar">Arabic</option><option =
+value=3D"hy">Armenian</option><option value=3D"az">Azerbaijani</option><opt=
+ion value=3D"eu">Basque</option><option value=3D"be">Belarusian</option><op=
+tion value=3D"bn">Bengali</option><option value=3D"bs">Bosnian</option><opt=
+ion value=3D"bg">Bulgarian</option><option value=3D"ca">Catalan</option><op=
+tion value=3D"ceb">Cebuano</option><option value=3D"ny">Chichewa</option><o=
+ption value=3D"zh-CN">Chinese (Simplified)</option><option value=3D"zh-TW">=
+Chinese (Traditional)</option><option value=3D"co">Corsican</option><option=
+ value=3D"hr">Croatian</option><option value=3D"cs">Czech</option><option v=
+alue=3D"da">Danish</option><option value=3D"nl">Dutch</option><option selec=
+ted=3D"selected" value=3D"en">English</option><option value=3D"eo">Esperant=
+o</option><option value=3D"et">Estonian</option><option value=3D"tl">Filipi=
+no</option><option value=3D"fi">Finnish</option><option value=3D"fr">French=
+</option><option value=3D"fy">Frisian</option><option value=3D"gl">Galician=
+</option><option value=3D"ka">Georgian</option><option value=3D"de">German<=
+/option><option value=3D"el">Greek</option><option value=3D"gu">Gujarati</o=
+ption><option value=3D"ht">Haitian Creole</option><option value=3D"ha">Haus=
+a</option><option value=3D"haw">Hawaiian</option><option value=3D"iw">Hebre=
+w</option><option value=3D"hi">Hindi</option><option value=3D"hmn">Hmong</o=
+ption><option value=3D"hu">Hungarian</option><option value=3D"is">Icelandic=
+</option><option value=3D"ig">Igbo</option><option value=3D"id">Indonesian<=
+/option><option value=3D"ga">Irish</option><option value=3D"it">Italian</op=
+tion><option value=3D"ja">Japanese</option><option value=3D"jw">Javanese</o=
+ption><option value=3D"kn">Kannada</option><option value=3D"kk">Kazakh</opt=
+ion><option value=3D"km">Khmer</option><option value=3D"ko">Korean</option>=
+<option value=3D"ku">Kurdish</option><option value=3D"ky">Kyrgyz</option><o=
+ption value=3D"lo">Lao</option><option value=3D"la">Latin</option><option v=
+alue=3D"lv">Latvian</option><option value=3D"lt">Lithuanian</option><option=
+ value=3D"lb">Luxembourgish</option><option value=3D"mk">Macedonian</option=
+><option value=3D"mg">Malagasy</option><option value=3D"ms">Malay</option><=
+option value=3D"ml">Malayalam</option><option value=3D"mt">Maltese</option>=
+<option value=3D"mi">Maori</option><option value=3D"mr">Marathi</option><op=
+tion value=3D"mn">Mongolian</option><option value=3D"my">Myanmar (Burmese)<=
+/option><option value=3D"ne">Nepali</option><option value=3D"no">Norwegian<=
+/option><option value=3D"ps">Pashto</option><option value=3D"fa">Persian</o=
+ption><option value=3D"pl">Polish</option><option value=3D"pt">Portuguese</=
+option><option value=3D"pa">Punjabi</option><option value=3D"ro">Romanian</=
+option><option value=3D"ru">Russian</option><option value=3D"sm">Samoan</op=
+tion><option value=3D"gd">Scots Gaelic</option><option value=3D"sr">Serbian=
+</option><option value=3D"st">Sesotho</option><option value=3D"sn">Shona</o=
+ption><option value=3D"sd">Sindhi</option><option value=3D"si">Sinhala</opt=
+ion><option value=3D"sk">Slovak</option><option value=3D"sl">Slovenian</opt=
+ion><option value=3D"so">Somali</option><option value=3D"es">Spanish</optio=
+n><option value=3D"su">Sundanese</option><option value=3D"sw">Swahili</opti=
+on><option value=3D"sv">Swedish</option><option value=3D"tg">Tajik</option>=
+<option value=3D"ta">Tamil</option><option value=3D"te">Telugu</option><opt=
+ion value=3D"th">Thai</option><option value=3D"tr">Turkish</option><option =
+value=3D"uk">Ukrainian</option><option value=3D"ur">Urdu</option><option va=
+lue=3D"uz">Uzbek</option><option value=3D"vi">Vietnamese</option><option va=
+lue=3D"cy">Welsh</option><option value=3D"xh">Xhosa</option><option value=
+=3D"yi">Yiddish</option><option value=3D"yo">Yoruba</option><option value=
+=3D"zu">Zulu</option></select></td><td class=3D"SL_td" width=3D"5%" align=
+=3D"center"> </td><td class=3D"SL_td" width=3D"8%" align=3D"center"><div id=
+=3D"SL_TTS_voice" title=3D"undefined" style=3D"background: url(&quot;chrome=
+-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/ttsvoice.png=
+&quot;);"></div></td><td class=3D"SL_td" width=3D"8%" align=3D"center"><div=
+ id=3D"SL_copy" title=3D"Copy translation" class=3D"SL_copy" style=3D"backg=
+round: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/conten=
+t/img/util/copy.png&quot;);"></div></td><td class=3D"SL_td" width=3D"8%" al=
+ign=3D"center"><div id=3D"SL_bbl_font_patch"></div><div id=3D"SL_bbl_font" =
+title=3D"Font size" class=3D"SL_bbl_font" style=3D"background: url(&quot;ch=
+rome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/font.png=
+&quot;);"></div></td><td class=3D"SL_td" width=3D"8%" align=3D"center"><div=
+ id=3D"SL_bbl_help" title=3D"Help" style=3D"background: url(&quot;chrome-ex=
+tension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/bhelp.png&quot;=
+);"></div></td><td class=3D"SL_td" width=3D"15%" align=3D"right"><div id=3D=
+"SL_pin" class=3D"SL_pin_off" title=3D"Pin pop-up bubble" style=3D"backgrou=
+nd: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/i=
+mg/util/pin-on.png&quot;);"></div></td></tr></table></div></div><div id=3D"=
+SL_shadow_translation_result" style=3D"visibility: visible;"></div><div id=
+=3D"SL_loading" class=3D"SL_loading" style=3D"background: url(&quot;chrome-=
+extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/loading.gif&q=
+uot;);"></div><div id=3D"SL_player2"></div><div id=3D"SL_alert100">Text-to-=
+speech function is limited to 200 characters</div><div id=3D"SL_Balloon_opt=
+ions" style=3D"background: url(&quot;chrome-extension://noaijdpnepcgjemiklg=
+fkcfbkokogabh/content/img/util/bg3.png&quot;) rgb(255, 255, 255);"><div id=
+=3D"SL_arrow_down" style=3D"background: url(&quot;chrome-extension://noaijd=
+pnepcgjemiklgfkcfbkokogabh/content/img/util/down.png&quot;);"></div><table =
+id=3D"SL_tbl_opt" width=3D"100%"><tr><td class=3D"SL_td" width=3D"5%" align=
+=3D"center"><input id=3D"SL_BBL_locer" type=3D"checkbox" checked=3D"1" titl=
+e=3D"Show Translator's button 3 second(s)"></td><td class=3D"SL_td" width=
+=3D"5%" align=3D"left"><div id=3D"SL_BBL_IMG" title=3D"Show Translator's bu=
+tton 3 second(s)" style=3D"background: url(&quot;chrome-extension://noaijdp=
+nepcgjemiklgfkcfbkokogabh/content/img/util/bbl-logo.png&quot;);"></div></td=
+><td class=3D"SL_td" width=3D"70%" align=3D"center"><a href=3D"chrome-exten=
+sion://noaijdpnepcgjemiklgfkcfbkokogabh/content/html/options/options.html?b=
+bl" target=3D"_blank" class=3D"SL_options" title=3D"Show options">Options</=
+a> : <a href=3D"chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content=
+/html/options/options.html?hist" target=3D"_blank" class=3D"SL_options" tit=
+le=3D"Translation History">History</a> : <a href=3D"chrome-extension://noai=
+jdpnepcgjemiklgfkcfbkokogabh/content/html/options/options.html?feed" target=
+=3D"_blank" class=3D"SL_options" title=3D"ImTranslator Feedback">Feedback</=
+a> : <a href=3D"https://www.paypal.com/cgi-bin/webscr?cmd=3D_s-xclick&amp;h=
+osted_button_id=3DGD9D8CPW8HFA2" target=3D"_blank" class=3D"SL_options" tit=
+le=3D"Make a small contribution">Donate</a></td><td class=3D"SL_td" width=
+=3D"15%" align=3D"right"><span id=3D"SL_Balloon_Close" class=3D"SL_options"=
+ title=3D"Close">Close</span></td></tr></table></div></div></div></body></h=
+tml>
+------MultipartBoundary--w1yfVvFMk8HmORpk00PHygzmkcvOmRZWiYXXQ7DkaW----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://user-awfy.sh.intel.com:8080/awfy/ARCworkloads/ARES-6/styles.css
+
+@charset "windows-1252";
+
+html { font-family: "Helvetica Neue", Helvetica, sans-serif; font-size: 62.=
+5%; }
+
+body { margin: 0px; background-color: rgb(44, 44, 60); width: 100%; font-si=
+ze: 1.6rem; font-weight: 400; line-height: 1.4; color: rgb(155, 155, 155); =
+box-sizing: border-box; padding: 6vw 9vw; }
+
+.swoop { position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; =
+background-image: url("swoop.svg"); background-repeat: no-repeat; backgroun=
+d-size: 50vw; width: 0px; animation: wipe-in 1s ease-in 0ms 1 normal forwar=
+ds running; }
+
+header, main, footer { box-sizing: border-box; max-width: 780px; margin: 0p=
+x auto; }
+
+p a { color: rgb(231, 177, 53); text-decoration: none; }
+
+p a:hover { text-decoration: underline; }
+
+header { display: flex; flex-wrap: wrap; }
+
+h2, .indicator { font-size: 5rem; color: rgb(155, 155, 155); font-weight: 5=
+00; line-height: 1.25; margin: 0px; }
+
+p { color: rgb(255, 255, 255); font-size: 1.8rem; margin-bottom: 3rem; opac=
+ity: 0; animation: fade-in 1s ease-in 200ms 1 normal forwards running; }
+
+.about h2 { margin-top: 3rem; }
+
+.logo { width: 33rem; height: auto; white-space: nowrap; overflow: hidden; =
+margin: 1px 1rem 1px 0px; font-size: 0px; opacity: 0; animation: scale-in 1=
+100ms ease-out 0ms 1 normal forwards running; }
+
+.start { flex: 1 1 0%; display: block; position: relative; background-color=
+: transparent; border: 5px solid rgb(231, 177, 53); font-size: 2.4rem; line=
+-height: 5.4rem; font-weight: 600; text-transform: uppercase; color: rgb(23=
+1, 177, 53); opacity: 0; animation: flicker-in 500ms ease-out 1s 1 normal f=
+orwards running; }
+
+.start.ready { transition: background 0.2s ease-out 0s, color 0.2s ease-out=
+ 0s; cursor: pointer; }
+
+.start.ready:hover { background-color: rgb(231, 177, 53); color: rgb(44, 44=
+, 60); }
+
+.start::after { content: ""; display: block; position: absolute; right: 0px=
+; top: 0px; width: 0px; height: 0px; border-width: 3rem 0px 0px 3rem; borde=
+r-style: solid; border-color: rgb(231, 177, 53) transparent transparent; }
+
+.start.ready .testrun { opacity: 0; }
+
+.tests { display: flex; flex-wrap: wrap; justify-content: space-around; }
+
+.test { position: relative; flex: 1 1 0%; border-bottom: 1px solid rgb(151,=
+ 151, 151); margin-right: 1rem; margin-bottom: 3rem; opacity: 0; animation:=
+ fade-in 1s ease-out 700ms 1 normal forwards running; min-width: 40%; }
+
+.test:nth-child(2n+1) { animation-delay: 900ms; }
+
+.overall h2, .test h2 { border-bottom: 1px solid rgb(151, 151, 151); }
+
+.test .indicator { color: rgb(231, 177, 53); opacity: 0; position: absolute=
+; left: -1.2rem; }
+
+.test .indicator.running { animation: test-running 1s ease 0s 1 normal none=
+ running; }
+
+@keyframes test-running {=20
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.score { color: rgb(231, 177, 53); margin: 1rem 0px; position: relative; }
+
+.score label { text-transform: uppercase; letter-spacing: 0.02rem; font-wei=
+ght: 500; display: block; line-height: 1; }
+
+.score .value { font-size: 6.4rem; font-weight: 600; line-height: 1; white-=
+space: nowrap; }
+
+.score .units { font-size: 4rem; font-weight: 600; }
+
+.score .margin { color: rgb(155, 155, 155); position: absolute; font-size: =
+2rem; top: 2rem; margin-left: 0.2rem; }
+
+.overall { margin-bottom: 3rem; opacity: 0; animation: fade-in 1s ease-out =
+500ms 1 normal forwards running; }
+
+.overall .score { color: rgb(255, 255, 255); }
+
+.overall .margin { top: 0.5rem; }
+
+.about h2 { margin-top: 3rem; opacity: 0; animation: fade-in 1s ease-out 50=
+0ms 1 normal forwards running; }
+
+.button { display: inline-block; position: relative; border: 5px solid rgb(=
+231, 177, 53); padding: 1rem 3rem; text-transform: uppercase; font-weight: =
+bold; transition: background 0.2s ease-out 0s, color 0.2s ease-out 0s; }
+
+.button:hover { background-color: rgb(231, 177, 53); color: rgb(44, 44, 60)=
+; text-decoration: none; }
+
+.button.return::before { content: ""; display: block; position: absolute; l=
+eft: 0px; top: 0px; width: 0px; height: 0px; border-width: 2rem 2rem 0px 0p=
+x; border-style: solid; border-color: rgb(231, 177, 53) transparent transpa=
+rent; }
+
+@keyframes fade-in {=20
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes scale-in {=20
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes flicker-in {=20
+  0% { opacity: 0; }
+  30% { opacity: 0.3; }
+  40% { opacity: 0; }
+  50% { opacity: 0.1; }
+  60% { opacity: 0; }
+  70% { opacity: 0.4; }
+  80% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes wipe-in {=20
+  0% { width: 0px; }
+  100% { width: 100vw; }
+}
+
+@media only screen and (max-width: 784px) {
+  .logo { width: 100%; margin: 0px 0px 1rem; }
+  .start { width: 100%; }
+  .test { flex: 0 0 auto; width: 100%; }
+}
+------MultipartBoundary--w1yfVvFMk8HmORpk00PHygzmkcvOmRZWiYXXQ7DkaW----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://user-awfy.sh.intel.com:8080/awfy/ARCworkloads/ARES-6/swoop.svg
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"614" height=3D"612" view=
+Box=3D"0 0 614 612">
+    <polygon fill=3D"#9B9B9B" points=3D"101.822 54.713 0 611.475 0 249.855 =
+97.38 43.051 558.229 0 613.901 0"/><polygon fill=3D"#E7B135" points=3D"90.2=
+52 25.088 0 65.877 0 36.104 0 0 90.252 0 432.078 0"/>
+</svg>=0A
+------MultipartBoundary--w1yfVvFMk8HmORpk00PHygzmkcvOmRZWiYXXQ7DkaW----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://user-awfy.sh.intel.com:8080/awfy/ARCworkloads/ARES-6/ARES-6.svg
+
+<svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 335 74">
+    <title>ARES-6</title>
+    <path fill=3D"#9B9B9B" d=3D"M 12.837 13.785 C 6.052 13.785 0.59 19.247 =
+0.59 26.032 L 0.59 73.366 L 13.416 73.366 L 13.416 54.168 L 47.179 54.168 L=
+ 47.179 73.366 L 60.171 73.366 L 60.171 26.032 C 60.171 19.247 54.627 13.78=
+5 47.841 13.785 L 12.837 13.785 Z M 13.416 41.259 L 13.416 26.694 L 47.179 =
+26.694 L 47.179 41.259 L 13.416 41.259 Z M 124.854 26.115 C 124.854 19.412 =
+119.309 13.868 112.524 13.868 L 65.273 13.868 L 65.273 73.366 L 78.099 73.3=
+66 L 78.099 54.251 C 78.182 54.333 78.347 54.333 78.347 54.333 C 78.347 54.=
+002 78.265 53.837 78.099 53.837 L 95.146 53.754 L 111.613 73.366 L 124.854 =
+73.366 L 124.854 68.98 C 120.716 64.015 116.165 58.719 111.944 53.754 L 112=
+.524 53.754 C 119.309 53.754 124.854 48.21 124.854 41.507 L 124.854 26.115 =
+Z M 78.099 26.694 L 111.862 26.694 L 111.862 40.845 L 78.099 40.845 L 78.09=
+9 26.694 Z"/><path fill=3D"#E7B135" d=3D"M 313.955 73.053 C 317.167 71.389 =
+319.353 68.037 319.353 64.158 L 319.353 49.842 C 319.353 44.215 314.885 39.=
+83 309.34 39.83 L 269.206 39.83 C 267.468 39.83 265.979 38.34 265.979 36.51=
+9 L 265.979 24.603 C 265.979 22.865 267.468 21.376 269.206 21.376 L 308.927=
+ 21.376 L 308.927 14.508 L 269.206 14.508 C 263.579 14.508 259.193 18.976 2=
+59.193 24.603 L 259.193 64.158 C 259.193 68.037 261.339 71.389 264.555 73.0=
+53 L 234.069 73.053 C 239.473 71.802 243.566 66.949 243.566 61.119 L 243.56=
+6 49.368 C 243.566 42.583 238.022 37.121 231.319 37.121 L 196.812 37.121 L =
+196.812 26.694 L 230.574 26.694 L 230.574 31.577 L 243.566 31.577 L 243.566=
+ 26.032 C 243.566 19.247 238.022 13.785 231.319 13.785 L 196.232 13.785 C 1=
+89.447 13.785 183.985 19.247 183.985 26.032 L 183.985 37.783 C 183.985 44.5=
+69 189.447 50.03 196.232 50.03 L 230.574 50.03 L 230.574 60.457 L 196.812 6=
+0.457 L 196.812 55.575 L 183.985 55.575 L 183.985 61.119 C 183.985 66.949 1=
+88.017 71.802 193.457 73.053 L 179.747 73.053 L 179.747 60.457 L 137.709 60=
+.457 L 137.709 50.03 L 171.555 50.03 L 171.555 37.121 L 137.709 37.121 L 13=
+7.709 26.694 L 179.747 26.694 L 179.747 13.785 L 124.717 13.785 L 124.717 4=
+3.419 L 124.717 0.366 L 334.951 0.366 L 334.951 73.053 L 313.955 73.053 Z M=
+ 247.722 40.547 L 247.722 47.333 L 254.507 47.333 L 254.507 40.547 L 247.72=
+2 40.547 Z M 312.568 64.158 C 312.568 65.896 311.078 67.386 309.34 67.386 L=
+ 269.206 67.386 C 267.468 67.386 265.979 65.896 265.979 64.158 L 265.979 46=
+.615 L 309.34 46.615 C 311.078 46.615 312.568 48.105 312.568 49.842 L 312.5=
+68 64.158 Z"/>
+</svg>=0A
+------MultipartBoundary--w1yfVvFMk8HmORpk00PHygzmkcvOmRZWiYXXQ7DkaW----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/imtranslator-s.png
+
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAXfSURBVHjaYvz//z8DLQFAAKbmWAVAEIoC
+6H28wEGHQBCHanUL+v+fqN1JB9OhRVwEocbGMx36Q2sNKSWEEPDe48tnpdRurT2MMXZdlo0nphBi
+LKXcKaWrtXYS0eOcQ+8dtVbknMHMGGPgFUAsKLYxMjJ8+/aN4fv37ybu7u7+VlZWDmZmZgZaWpo8
+EuJiDKxsHGB1P358Z3j9+g3D7du3v586derSiRMnDp09e3YT0MAjIDOQAUAAoSAmJiapoKCgWTt3
+7nwFdNl/GPj44///s1ef/T984Nz/02dv/n/55st/ZPDjx4//+/bt+5CQkLCElZVVGWQWyAcgABBA
+cOtYWFhMOzs752VlZelwcEBc+g+Ir525wPDsymmGbw+vMpy59YZBRlaY4dUfoG/E1RiiIx0Z5GRE
+4A4EBdHChQvvFRYWpgEduBckBhBAYGu4uLh0Jk+evConJ0cTaBFcw9mDhxkub5jL8PDCUYZr1+8z
+/GVlZ3j3+TvDtsPPGPafvMvw8tVbBnNjTQZuHoiDQK42NjYWVFZWdgGGwgmghY8BAghkAV9+fv78
+iooKE+TgunD+PsPK+esYPvxjZHj0V5jhv6g8g5ScOMPtZz8ZWLkFGEwM5Rl+/vnPcO3GUwZLC00G
+VlaEw3R0dHiB8WF84MCB9QABxCwrK+s9adKkcmAKggfXP2DKnb/4CMPxUzcY5FQkGeTk+BiUFMQZ
+OHh5Gb7942D49PkLw4OHLxl4+IA+ev+VQVVJmkFaSgQlPrW0tCS2bt16GyCAmKytrX1VVVVRov7F
+m68Mb778ZBAUF2W4fPEuw68XDxi4Wf4wnD5xi+HmpcsMv37/ZHjx+ivDjWtPgCnvN8O9B08wEoyI
+iAiDg4ODM0AAsQDTOD+65ItXXxke3H/PwPzvD8MfRmYG4d8fGO7u38Jw+OhvhjeffzOwcX9gEBaV
+ZGBh5WA4d/k5g57eW6ypEph3+AACiAmYMX6hS/ByszKw/P/DwMb8n0FETIzhxEtOBmVHH4aIxCAG
+AzMtBjZWYIQyfGcQEmJn+PXzLzB5M2O1AJiSfgMEENOFCxdOf/r0CUVCRoKPwctXj0FQkI2BlfEb
+w60n7xiuP/7MkJ4TxtDUlMFgqCPFYGulxiAhzsMgJSXIIA9MuugAlIuBme8iQAAxv3v37pWKikqQ
+gYEBHyJPMDF8/PaL4fXbVwzCQFcaWeowGACT48vnbxjWLN/A8OHdB2DkKzHIqSowcHCwMvh7WTOI
+CKOG9ObNmz9OmTKlHCCAmIE2vQf64oOHh4cPMGKYYLmPD5i2bzx8C8xsf4CpSIzhHzBpvX7znoGN
+i5eBiZmD4dmLzwy3771lcLY2YHB2NGZALiKePHnCkJaWVvXo0aMNAAEEDrwvX76AypOf+vr6dtLS
+0mAxTqDLhAV4GD4DyyZBIW4GGUUJBiUtNQYVbVUGYXEJhv9sXAwGQHZUqCtKHrh27RpDdnZ2x9Wr
+Vzt//vz5DyCAwNYCS0yGP3/+MABLxNqDBw828fMjvPvx8w+GC9fuMPz89xOYU5kYvn3/zfDvLyOD
+goQog76WAlzd27dvGdatW3enAQiApfHS379/Mzx9+pQBIIBQyrrExMRlyIXYlStX/r9//w7O//X7
+//+/SPJAn/8/duzY366urlPAkrcGaIYEqKjR1tZmkJGRAQcbQACxIBV2aqGhoZ4wfnNz84mZM2e2
+CgkJSSgpKurJK8jLA33KCQnSrz+A4fsYiG8C7bkArDuuAZP7G0FBQVDSZECuxAACCI40NDSygcn1
+PzCo/peXl+8H2i4HkwN6mVFNTY3N1NSUA4SBatk4OTnBwQsUZwCmQgZQCSwgIMDAxsYGKibgPgAI
+ILgPAgMDPUA1GTCCtgBdngwUegWTAxr2H4h/wYpxUHwB+aCKCV5z4QIAAcQiLy8PTIL/DI2MjBxL
+Sko2Ag2PBYp/pladDBBALNAUI9fa2joHWM/WAvPC5zdv3lCt0gcIIEZatyoAAoiJgcYAIMAAfkdl
+vAKfU0kAAAAASUVORK5CYII=
+
+------MultipartBoundary--w1yfVvFMk8HmORpk00PHygzmkcvOmRZWiYXXQ7DkaW----
+Content-Type: text/html
+Content-ID: <frame-F316E45026C8C3544E8D7285963706F8@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body><iframe id=3D"magicFrame" frameborder=3D"0"></iframe=
+></body></html>
+------MultipartBoundary--w1yfVvFMk8HmORpk00PHygzmkcvOmRZWiYXXQ7DkaW----
+Content-Type: text/html
+Content-ID: <frame-2048FCCA3F017FE2A114675C5F43712B@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://user-awfy.sh.intel.com:8080/awfy/ARCworkloads/ARES-6/
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><title>benchmark payload</title></head><body>
+
+
+
+</body></html>
+------MultipartBoundary--w1yfVvFMk8HmORpk00PHygzmkcvOmRZWiYXXQ7DkaW------

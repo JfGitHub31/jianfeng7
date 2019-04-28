@@ -1,0 +1,85 @@
+﻿https://www.jb51.net/article/132257.htm -------------------------------------------------------队列爬虫
+
+https://blog.csdn.net/taiji1985/article/details/51264421 --------------------------------------队列爬虫
+
+https://blog.csdn.net/qq_41396296/article/details/80767528 ------------------------------------Import json 详解
+
+https://www.cnblogs.com/derek1184405959/p/8449923.html-----------------------------------------多线程爬虫
+
+https://blog.csdn.net/lovemysea/article/details/78836927 --------------------------------------调用父类中的__init__方法
+
+https://www.cnblogs.com/vampirejt/p/3419846.html ----------------------------------------------正则去标签用法
+
+https://www.cnblogs.com/yyyg/p/5498803.html ---------------------------------------------------正则表达式详解1
+
+https://blog.csdn.net/chanai5/article/details/81130680-----------------------------------------正则表达式详解2
+
+https://www.cnblogs.com/tina-python/p/5508402.html --------------------------------------------re.S(M, L)详解
+
+https://www.cnblogs.com/68xi/p/9294332.html ---------------------------------------------------weixin werobot
+
+https://werobot.readthedocs.io/zh_CN/v1.6.0/ --------------------------------------------------werobot 入门
+
+https://blog.csdn.net/d1240673769/article/details/75907152/ -----------------------------------chrome + selenium
+
+https://www.jianshu.com/p/04848a35fe0a --------------------------------------------------------ChromeOption的用法
+
+https://blog.csdn.net/mouday/article/details/82049271 -----------------------------------------chrome()参数
+
+https://blog.csdn.net/qq1105273619/article/details/80542770 -----------------------------------cookies 和 cookie
+
+https://blog.csdn.net/chenmozhe22/article/details/81434549 ------------------------------------open()打开方式详解
+
+requests.get（）方法中,参数params后面跟着是一个字典，requests会自动帮我们把这个参数拼接在接口请求地址中，其中只有response返回为json格式时，用r.json()打印出响应的内容，
+
+如果response返回不为json格式，使用r.json()会报错
+
+http://www.runoob.com/python/python-json.html -------------------------------------------------json-python
+
+http://www.runoob.com/python/att-string-split.html --------------------------------------------split()返回的是个list
+
+http://www.cnblogs.com/lizm166/p/8143231.html -------------------------------------------------bs4详解
+
+https://www.cnblogs.com/zhangxinqi/p/9218395.html ---------------------------------------------bs4
+
+https://blog.csdn.net/taohuaxinmu123/article/details/48828255 --------------------------------- os.system(), os.popen(), subprocess.Popen()的区别
+
+https://blog.csdn.net/bcfdsagbfcisbg/article/details/78134172---------------------------------- os.system(), os.popen(), subprocess.Popen()的区别2
+
+https://blog.csdn.net/gmq_syy/article/details/76855621 ---------------------------------------- subprocess
+
+https://blog.csdn.net/Ka_Ka314/article/details/81014589 ---------------------------------------jsonpath 详解
+
+https://www.cnblogs.com/smallmars/p/6935269.html-----------------------------------------------re.MULTLINE
+
+https://blog.csdn.net/kumoshu/article/details/79781647-----------------------------------------selenium登陆知乎遇到验证码问题
+
+https://segmentfault.com/a/1190000015454650----------------------------------------------------模拟知乎登陆
+
+https://www.cnblogs.com/c-x-a/p/8564616.html --------------------------------------------------模拟登陆知乎难难
+
+https://blog.csdn.net/weixin_42260204/article/details/81097205---------------------------------selenium禁止网页加载来提高加载速度
+
+https://zhuanlan.zhihu.com/p/38320388 ---------------------------------------------------------javascript()
+
+https://www.cnblogs.com/yufeihlf/p/5717291.html------------------------------------------------Selenuim+Python之元素定位总结及实例说明
+
+https://www.cnblogs.com/VseYoung/p/selenium_wait_3_python.html---------------------------------3中waite方式
+
+https://www.cnblogs.com/chendai21/p/8137285.html-----------------------------------------------字符串常用方法
+
+https://www.cnblogs.com/keepgoingon/p/7137448.html --------------------------------------------numpy详解
+
+http://www.cnblogs.com/MY0213/p/9513976.html---------------------------------------------------numpy详解2
+
+https://blog.csdn.net/u012995136/article/details/64134517--------------------------------------pandas详解
+
+https://blog.csdn.net/LZH_12345/article/details/79798787---------------------------------------pandas详解2
+
+https://blog.csdn.net/u012175089/article/details/70054806 -------------------------------------什么是cookies
+
+https://blog.csdn.net/u012175089/article/details/70135365 -------------------------------------cookiejar模块详解
+
+https://blog.csdn.net/qq_34535410/article/details/53493262-------------------------------------python基础 filter等重要
+
+https://blog.csdn.net/weixin_36279318/article/details/79442629---------------------------------requests库的基本使用
